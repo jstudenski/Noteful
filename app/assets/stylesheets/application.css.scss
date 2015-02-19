@@ -23,7 +23,7 @@ $color_laurel_approx: rgb(114, 149, 114);
 $black: #000000;
 $color_gunsmoke_approx: rgb(132, 132, 132);
 $color_tundora_approx: rgb(70, 69, 69);
-$color_japanese_laurel_approx: green;
+$neon_green: green;
 
 body {
   background-color: $white;
@@ -98,6 +98,6 @@ nav {
   float: right;
 }
 .flash {
-  color: $color_japanese_laurel_approx;
+  color: $neon_green;
 }
 
