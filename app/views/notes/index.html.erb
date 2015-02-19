@@ -10,7 +10,7 @@
     <%= div_for note do %>
       <h2><%= note.title %></h2>
       <p><%= note.preview %>
-      <%= link_to '(...readmore)', note_path(note) %>
+      <%= link_to '...', note_path(note) %>
       </p>
       <p><%= link_to 'Show', note_path(note) %> |
         <%= link_to 'Edit', edit_note_path(note) %> |

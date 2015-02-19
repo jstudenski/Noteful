@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+//colors
+$white: white;
+$color_gravel_approx: rgb(73, 73, 73);
+$color_everglade_approx: #1f4f2b;
+$pink: pink;
+$color_laurel_approx: rgb(114, 149, 114);
+$black: #000000;
+$color_gunsmoke_approx: rgb(132, 132, 132);
+$color_tundora_approx: rgb(70, 69, 69);
+$color_japanese_laurel_approx: green;
+
+body {
+  background-color: $white;
+  color: $color_gravel_approx;
+}
+h1 {
+  color: $color_gravel_approx;
+}
+h2 {
+  color: $color_gravel_approx;
+}
+h3 {
+  color: $color_gravel_approx;
+}
+a {
+  color: #1F4F2B;
+}
+nav {
+  background-color: $pink;
+  height: 40px;
+  ul {
+    list-style: none;
+    padding: 5px;
+    li {
+      display: inline;
+      border-right: 1px solid $color_laurel_approx;
+      padding: 5px;
+      &:last-child {
+        border-right: 0;
+      }
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+.content {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.button {
+  text-decoration: none;
+  border: 1px solid $color_gunsmoke_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 3px;
+  padding: 6px;
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  color: $color_tundora_approx;
+  display: inline-block;
+  margin: 5px;
+}
+.pull-right {
+  float: right;
+}
+.flash {
+  color: $color_japanese_laurel_approx;
+}
+
