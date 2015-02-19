@@ -15,10 +15,10 @@
  */
 
 //colors
-$white: white;
-$color_gravel_approx: rgb(73, 73, 73);
-$color_everglade_approx: #1f4f2b;
-$pink: pink;
+$white: #FFFFFF;
+$dark_grey: #494949;
+$forest_green: #1f4f2b;
+$pink: #FFC0CB;
 $color_laurel_approx: rgb(114, 149, 114);
 $black: #000000;
 $color_gunsmoke_approx: rgb(132, 132, 132);
@@ -27,19 +27,22 @@ $color_japanese_laurel_approx: green;
 
 body {
   background-color: $white;
-  color: $color_gravel_approx;
+  color: $dark_grey;
 }
 h1 {
-  color: $color_gravel_approx;
+  color: $dark_grey;
 }
 h2 {
-  color: $color_gravel_approx;
+  color: $dark_grey;
 }
 h3 {
-  color: $color_gravel_approx;
+  color: $dark_grey;
 }
 a {
-  color: #1F4F2B;
+  color: $forest_green;
+  &:hover {
+    color: $pink;
+  } 
 }
 nav {
   background-color: $pink;
