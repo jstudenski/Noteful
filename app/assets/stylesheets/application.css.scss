@@ -15,15 +15,15 @@
  */
 
 //colors
-$white: #FFFFFF;
-$dark_grey: #494949;
-$forest_green: #1f4f2b;
-$pink: #FFC0CB;
+$white: rgb(255, 255, 255);
+$dark_grey: rgb(73, 73, 73);
+$forest_green: rgb(31, 79, 43);
+$pink: rgb(255, 192, 203);
 $color_laurel_approx: rgb(114, 149, 114);
-$black: #000000;
+$black: rgb(0, 0, 0);
 $color_gunsmoke_approx: rgb(132, 132, 132);
 $color_tundora_approx: rgb(70, 69, 69);
-$neon_green: green;
+$neon_green: rgb(204, 255, 102);
 
 body {
   background-color: $white;
